@@ -7,7 +7,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
-    <title>Upsell 1</title>
+    <title>Up 2</title>
     <style type="text/css">
       body {
         background-image: url("bg.jpeg");
@@ -80,16 +80,20 @@
           <p class="lead">Hoy, puede agregar el sistema Estrías Nunca Más a su pedido, por solo <span class="font-weight-bold text-success">$27</span>... o <span class="font-weight-bold text-success">12 paquetes pequeños de <span class="price">$14</span></span>...</p>
           <div id="cta">
             
-            <!-- CÓDIGO DA KIWIFY -->
+          <!-- HOTMART - Upsell Widget -->
+<div id="box_hotmart"></div>
+<script src="https://pay.hotmart.com/assets/js/hotmart.upsell_checkout.js"></script>
 
-            <div style="text-align:center">
-          <button id="kiwify-upsell-trigger-8uT5joR" style="background-color:#27AF60;padding:12px 16px;cursor:pointer;color:#FFFFFF;font-weight:600;border-radius:4px;border:1px solid #27AF60;font-size:20px;">Sim, eu aceito essa oferta especial!</button>
-          <div id="kiwify-upsell-cancel-trigger" style="margin-top:1rem;cursor:pointer;font-size:16px;text-decoration:underline;font-family:sans-serif;">Não, eu gostaria de recusar essa oferta</div>
-        </div><script> 
-            let nextUpsellURL = "";
-            let nextDownsellURL = "";</script><script src="https://kiwify-snippets.netlify.app/upsell/upsell.min.js"></script>
+<script>
+opts = {
+key: 'USL-79161-221158-05cf4c966defc88e30cf3519131a2821',
+width: '650' ,
+height: '420'
+};
+Upsell.Widget.show(opts);
+</script>
+<!-- HOTMART - Upsell Widget [end] -->
 
-            <!-- CÓDIGO DA KIWIFY -->
 
           </div>
           <p class="lead">¿Cómo será tu vida después de eliminar las estrías y marcas de tu cuerpo?</p>
